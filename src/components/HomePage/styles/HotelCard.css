@@ -1,0 +1,105 @@
+.hotel__card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: rgba(91, 88, 88, 0.098);
+  border-radius: 1em;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.086);
+}
+
+.hotel__card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.header__hotel__card {
+  height: 45%;
+}
+.img__hotel__card {
+  width: 100%;
+  height: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.section__hotel__card {
+  padding: 0 1em;
+  height: 55%;
+}
+.title__section__hotel__card {
+  display: flex;
+  align-items: center;
+  height: 40%;
+  padding: 1em 0;
+  font-size: 1em;
+  color: black;
+  font-weight: 800;
+}
+
+.city__hotel__card {
+  margin: 0.5em 0;
+}
+
+.price__hotel__card {
+  font-weight: 800;
+  padding: 0.3em 0;
+}
+
+.footer__hotrl__card {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.hotel__card__btn {
+  background-color: rgba(208, 43, 43, 0.982);
+  border: none;
+  padding: 0.3em 1em;
+  border-radius: 5px;
+  color: white;
+  margin: 0.5em 0 1em 0;
+}
+
+.hotel__card__btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.star-rating {
+  display: inline-block;
+  font-size: 0;
+}
+
+.star {
+  margin-right: 2em;
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(119, 117, 117);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.filled {
+  background-color: yellow;
+}
+
+.rating__hotel__card {
+  display: flex;
+  gap: 1em;
+}
+
+@media (max-width: 600px) {
+  .hotel__card {
+    width: 90%;
+  }
+}

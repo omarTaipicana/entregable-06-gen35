@@ -1,0 +1,95 @@
+.login__card {
+  width: 30%;
+  margin: 0 auto;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.bxs-user-circle {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 10em;
+}
+
+.title__login__card {
+  text-align: center;
+  font-size: 2em;
+  color: red;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.label__login__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.login__card__btn {
+  width: 90%;
+  margin: 0 auto;
+  margin: 1em 1em 2em 1em;
+  background-color: rgba(208, 43, 43, 0.982);
+  border: none;
+  font-size: 1.5em;
+  padding: 0.2em;
+  color: white;
+}
+
+.span__login__card {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.input__login__card {
+  font-size: 1em;
+}
+
+/* ------------------------------------ */
+.logued__card {
+  width: 20%;
+  margin: 0 auto;
+  padding: 1em;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img__logued {
+  width: 100%;
+}
+
+.user__logued {
+  text-align: center;
+  font-size: 2em;
+  color: rgb(4, 4, 55);
+  margin: 0.5em 0;
+}
+
+.user__logued__btn {
+  width: 70%;
+  margin: 0 auto;
+  margin: 1em 1em 2em 1em;
+  background-color: rgba(208, 43, 43, 0.982);
+  border: none;
+  font-size: 1.5em;
+  padding: 0.2em;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .login__card {
+    width: 80%;
+  }
+  .logued__card {
+    width: 90%;
+  }
+}

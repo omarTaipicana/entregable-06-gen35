@@ -1,0 +1,53 @@
+.register__card {
+  width: 30%;
+  margin: 0 auto;
+  border: solid 2px rgba(0, 0, 0, 0.313);
+  border-radius: 10px;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.title__register__card {
+  text-align: center;
+  font-size: 2em;
+  color: red;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.label__register__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.register__card__btn {
+  width: 90%;
+  margin: 0 auto;
+  margin: 1em 1em 2em 1em;
+  background-color: rgba(208, 43, 43, 0.982);
+  border: none;
+  font-size: 1.5em;
+  padding: 0.2em;
+  color: white;
+}
+
+.span__register__card {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.input__register__card {
+  font-size: 1em;
+}
+
+@media (max-width: 600px) {
+  .register__card {
+    width: 80%;
+  }
+}

@@ -1,0 +1,157 @@
+.header__hotelId {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  gap: 0.5em;
+}
+
+.title__hotelId {
+  font-size: 2.3em;
+  font-weight: 800;
+}
+
+.slice__map__hotelId {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img__slice__hotelId {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 45%;
+}
+
+.img__slice {
+  width: 80%;
+}
+
+.bx {
+  font-size: 3em;
+  color: red;
+}
+
+.info__hotelId {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bx-map {
+  color: black;
+  font-size: 1em;
+}
+.addres__hotelId {
+  display: block;
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.description__hotelId {
+  text-align: justify;
+  margin-bottom: 2em;
+}
+
+.reservation__form__content {
+  background-color: rgba(0, 0, 0, 0.148);
+  width: 30%;
+  margin-left: 5%;
+  padding: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.086);
+}
+
+.title__reservation__form {
+  color: red;
+  font-size: 1.5em;
+}
+.reservation__form {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.label__reservation__form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.span__reservation__form {
+  font-weight: 800;
+}
+
+.reservation__form__btn {
+  display: flex;
+  background-color: rgba(208, 43, 43, 0.982);
+  border: none;
+  padding: 0.2em 1em;
+  border-radius: 5px;
+  color: white;
+  margin: 1em auto 0.5em auto;
+  width: 40%;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.reservation__form__btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.input__reservation__form {
+  border: none;
+  font-size: 1em;
+  width: 100%;
+}
+
+.card__content {
+  margin: 0 auto;
+}
+
+.title__otherHotels {
+  margin: 1em 0 0.5em 4em;
+  font-size: 2em;
+}
+
+.city__name__tile__otherHotels {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  .title__hotelId {
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  .slice__map__hotelId {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .img__slice__hotelId {
+    width: 100%;
+  }
+
+  .img__slice {
+    width: 70%;
+  }
+
+  .reservation__form__content {
+    width: 90%;
+  }
+
+  .title__otherHotels {
+    margin: 1em auto;
+    font-size: 2em;
+    text-align: center;
+  }
+}
